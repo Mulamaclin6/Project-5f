@@ -3,6 +3,11 @@ body {
   margin: 20px;
   font-style: italic;
 }
+@media all and (max-width: 500px) {
+  body {
+    color: red;
+  }
+}
 header {
   width: 100%;
   background-color: #4caf50;
@@ -41,6 +46,12 @@ section {
   font-size: large;
   background-color: antiquewhite;
 }
+@media (orientation: portrait) and (max-width: 500px) {
+  .product {
+    font-size: 20px;
+    color: rgb(204, 185, 18);
+  }
+}
 
 h2 {
   color: #7c0fe2;
@@ -66,6 +77,12 @@ img {
   border-radius: 4px;
   text-align: justify;
   background-color: antiquewhite;
+}
+@media (orientation: portrait) and (max-width: 500px) {
+  .about {
+    font-size: 20px;
+    color: rgb(204, 185, 18);
+  }
 }
 .pdf-link {
   display: contents;
