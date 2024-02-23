@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 20px;
   font-style: italic;
+  color: blue;
 }
 @media all and (max-width: 500px) {
   body {
@@ -136,11 +137,19 @@ button:hover {
   background-color: #0056b3;
 }
 footer {
+  width: 100%;
   text-align: center;
   padding: 10px;
   background-color: #4caf50;
   color: white;
   display: block;
+  font-size: 20px;
   bottom: 0;
   position: fixed;
+}
+@media (orientation: portrait) and (min-width: 500px) {
+  footer {
+    font-size: 18px;
+    color: pink;
+  }
 }
