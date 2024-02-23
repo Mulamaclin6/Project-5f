@@ -145,7 +145,6 @@ footer {
   display: block;
   font-size: 20px;
   bottom: 0;
-  position: fixed;
 }
 @media (orientation: portrait) and (min-width: 500px) {
   footer {
